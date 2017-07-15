@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "462456234696",
+    "firebase_url": "https://myuts-7cc67.firebaseio.com",
+    "project_id": "myuts-7cc67",
+    "storage_bucket": "myuts-7cc67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462456234696:android:334a355424c0a969",
+        "android_client_info": {
+          "package_name": "nickita.gq.atomicbombsimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462456234696-sui0ogca55v9j6240p9l6qu8ic5uvfsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6VdW7JaQ0sNwsHDriTLmknaWzA-lkAdg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
