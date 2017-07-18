@@ -21,6 +21,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -184,6 +185,7 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
             @Override
             public void onFinish() {
                 mLoadingScreen.setBackgroundColor(getResources().getColor(R.color.colorWhite));
+                animateRocket();
                 new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -197,6 +199,14 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
                 }, 1500);
             }
         }.start();
+    }
+
+    private void animateRocket(){
+        ImageView rocket = (ImageView) mView.findViewById(R.id.loading_rocket);
+        rocket.animate()
+                .y(rocket.getY() + 1000)
+                .setDuration(1000)
+                .start();
     }
 
     private void setUpLoadingScreen() {

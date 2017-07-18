@@ -24,7 +24,7 @@ import nickita.gq.atomicbombsimulator.utils.Values;
 public class BombConfigurationFragment extends Fragment {
     private View mView;
     private TextView mIndicator;
-    private int mKilotons = 100;
+    private int mKilotons = 1000;
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(EventMessage event) {
@@ -46,7 +46,7 @@ public class BombConfigurationFragment extends Fragment {
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                mKilotons = i*100;
+                mKilotons = i*1000;
                 mIndicator.setText(String.valueOf(i*100)+Values.BOMB_POWER_SELECTOR_LABEL);
             }
 
