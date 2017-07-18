@@ -44,6 +44,7 @@ dependencies {
     compile 'com.google.firebase:firebase-core:'+gmsVersion;
     compile 'com.google.firebase:firebase-database:'+gmsVersion;
     compile 'com.google.firebase:firebase-messaging:'+gmsVersion;
+    compile 'com.google.maps.android:android-maps-utils:0.5+'
     testCompile 'junit:junit:4.12'
 }
 

@@ -75,6 +75,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/admin/.android/build-cache/9a7f965c74e55fb9ca2a460d65da1b3124d45f83/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_8358f3aee8b3bfd015ac2e206b191d17c3742484.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/admin/.android/build-cache/785ed8168a2a826d688e240c9161c34d92d286b1/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"

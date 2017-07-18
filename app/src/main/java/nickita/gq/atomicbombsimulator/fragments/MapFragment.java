@@ -52,6 +52,8 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polygon;
 import com.google.android.gms.maps.model.PolygonOptions;
+import com.google.android.gms.maps.model.TileOverlay;
+import com.google.android.gms.maps.model.TileOverlayOptions;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -59,12 +61,15 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.messaging.FirebaseMessaging;
+import com.google.maps.android.heatmaps.HeatmapTileProvider;
 import com.victor.loading.newton.NewtonCradleLoading;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
+import java.util.LinkedList;
+import java.util.List;
 import java.util.UUID;
 
 import nickita.gq.atomicbombsimulator.R;
@@ -201,11 +206,20 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
         }.start();
     }
 
-    private void animateRocket(){
-        ImageView rocket = (ImageView) mView.findViewById(R.id.loading_rocket);
+    private void animateRocket() {
+        final ImageView rocket = (ImageView) mView.findViewById(R.id.loading_rocket);
         rocket.animate()
                 .y(rocket.getY() + 1000)
-                .setDuration(1000)
+                .setDuration(1600)
+                .withEndAction(new Runnable() {
+                    @Override
+                    public void run() {
+                        rocket.animate()
+                                .y(rocket.getY() - 1000)
+                                .setDuration(0)
+                                .start();
+                    }
+                })
                 .start();
     }
 
@@ -328,6 +342,7 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
         mDatabase.child(Values.DB_BOMED_PLACES_LOC).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                List<LatLng> bombs = new LinkedList<LatLng>();
                 for (DataSnapshot snap : dataSnapshot.getChildren()) {
                     BombedPlace bp = new BombedPlace(Values.ERROR_TITLE, 0, 0, Values.ERROR_TITLE);
                     try {
@@ -340,8 +355,13 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
                         //
                     }
                     LatLng latLng = new LatLng(bp.getmLatitude(), bp.getmLongitude());
+                    bombs.add(latLng);
                     mGoogleMap.addMarker(new MarkerOptions().position(latLng).title(Values.MARKER_THIS_PLACE_WAS_BOMBED_BY + bp.getmBombedByCountry()));
                 }
+                HeatmapTileProvider provider = new HeatmapTileProvider.Builder()
+                        .data(bombs)
+                        .build();
+                mGoogleMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
                 mLoading.setVisibility(View.GONE);
                 mLoading.stop();
             }
@@ -379,7 +399,7 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
                 .radius(bomb.getImpactRadiusLevel3());
         mShapeLevel3 = mGoogleMap.addCircle(optionsLevel3);
         if (mLocationReadyFlag) {
-            checkImpact();
+            drawLine();
             if (mMarker != null) {
                 navigateSmoothOnMap(mMarker.getPosition());
             }
@@ -406,6 +426,7 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
         mLine = mGoogleMap.addPolygon(options);
     }
 
+    @Deprecated
     private void checkImpact() {
         float[] distanceLevel1 = new float[2];
         float[] distanceLevel2 = new float[2];
@@ -429,7 +450,6 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
                 }
             }
         }
-        drawLine();
     }
 
     private void setUpLongTapListener() {
