@@ -21,6 +21,7 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 import nickita.gq.atomicbombsimulator.fragments.BombConfigurationFragment;
+import nickita.gq.atomicbombsimulator.fragments.CounterFragment;
 import nickita.gq.atomicbombsimulator.fragments.MapFragment;
 import nickita.gq.atomicbombsimulator.fragments.ResultFragment;
 import nickita.gq.atomicbombsimulator.model.Bomb;
@@ -106,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
     private void setUpFragments() {
         getFragmentManager().beginTransaction().add(R.id.maps_container, new MapFragment(), Values.MAP_FRAGMENT_TAG).commit();
         getFragmentManager().beginTransaction().add(R.id.bomb_configuration_container, new BombConfigurationFragment(), Values.CONFIGURATION_FRAGMENT_TAG).commit();
+        getFragmentManager().beginTransaction().add(R.id.middle_container, new CounterFragment(), Values.COUNTER_FRAGMENT_TAG).commit();
     }
 
     @Override

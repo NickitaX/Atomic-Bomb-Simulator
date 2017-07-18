@@ -3,291 +3,120 @@
 
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/02cbf94855c2755a36d3b3c569f63e9c51b33679/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-location-10.2.0_4c3b01b0153aa3ee279089eec4d74c677f6dac88.jar" />
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_02d66d0d178d2ac96c9ebcbd9fa448d623a62aa7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-10.2.0_3ec02f5f7efde13ae1cb8c0e473da06ff266db3f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1acfba708364fb5bdb0ad5910d1ca8bb1125f645">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.daimajia.androidanimations-library-2.2_56623e5b6d83d8a864ecd8202c5b426405bdd1c6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.daimajia.easing/library/2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a73b24a82e860ae409181afee75925a04a03aed3">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.daimajia.easing-library-2.0_53e7fd56e18010786dc8e25e30f99cf19c10a352.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.24.0/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/5926f55e451021065ecd256708450e5f2c5fcfbd/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0e0e8918eb74e3ee9e82eef6430a4359b2b577d3">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.24.0_f7e0e9b0f788641d6cd0f359e6f70e95469d6419.jar" />
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_911f40c5915521dee9934a9aae4752a42b19ab4b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.specyci/residemenu/1.6/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/cef43cb2959725c3ed25c634ada6072f53060d97/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="5e309b1df3051abebbfda31d1c80cd19bec617da">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.specyci-residemenu-1.6_25310760836d6763db9aefeb02bf20ed90f229df.jar" />
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_877a5ac4332139f7d9c54535b1e1476180429303.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/4ca11af7843345a8660aea2d2e9a91998d7ab9ea/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_8026521420112fc84c10b3895501cde79daf21ff.jar" />
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_313233c458ceca47895f36762ca21633d627a943.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-10.2.0_aeefc05cbad57f4a3c0c7d83e881cb4e060217ad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_f37e95579d4a3f3552050a9363750900bf28d866.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_27f37ed28208c616db8609e65503359cdcc1fa61.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_4acf631e7a8396c78e4df79d1947001a16164ef0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.0_b6dbee788ec00aba6552d3ba90654f1489400410.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_107e22021395a258be0b22809b34b4670edb8f06.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_a53577b511fe9bd5bdb2777f6d10665537c905cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.0_f29786a9d023cb131d3732bf0adc850783030f6f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_4b3e0e43b3f605a85450a507c77c719a4c118af3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.victor/lib/1.0.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8b534207608aa1c205263d7426e634872ae34f08">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.victor-lib-1.0.4_4420d9c17db2941eaa5d5db6accd2ea5aa5e81a8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.0_894670b0ed44724e2136844ef1cf2fcb0ac9003f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/28bfbbdbd96fd8fd2fd0591b413c834d8ffa9d36/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-10.2.0_321dd6656e58ae4bc8eda3ede2b2d59257673195.jar" />
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_0e2cc163c99b8849b58cef77856f58e64c4a6057.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.2.0/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/811e45dab78f1dc6333f8426364927495a58fab1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_31efdc0b698367985086373b96a0605b305006e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/a4903bd512167958ff17d236a3d08b4072b14965/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0e301f24b283f14b564f660c9abe863af6be5896">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-10.2.0_c971084f41556036786570c04cd97b1b11d3b0bf.jar" />
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_cc701ee84967a21e9edca7668b380707da66a37f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.daimajia.easing/library/2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a73b24a82e860ae409181afee75925a04a03aed3">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.daimajia.easing-library-2.0_53e7fd56e18010786dc8e25e30f99cf19c10a352.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_27f37ed28208c616db8609e65503359cdcc1fa61.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.0_3ec02f5f7efde13ae1cb8c0e473da06ff266db3f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/eb851873042f96232af581fe54b954c53c3f4646/output/jars/libs/nineoldandroids-library-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_e02153775ce1658878e412e4a4110fd63f162108.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0_76f034670fe7538a52aac94404787e3f8d48ef02.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/785ed8168a2a826d688e240c9161c34d92d286b1/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-10.2.0_894670b0ed44724e2136844ef1cf2fcb0ac9003f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_3eb4716e38c36af994cfeb934b15309b535ed112.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.0_b6dbee788ec00aba6552d3ba90654f1489400410.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_760ae8658226144ca25e4bc1fc63d4125554958c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.2.0_321dd6656e58ae4bc8eda3ede2b2d59257673195.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.0_f29786a9d023cb131d3732bf0adc850783030f6f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
         sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.2.0_aeefc05cbad57f4a3c0c7d83e881cb4e060217ad.jar" />
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_174e09872c4f9bdfda2f4453875c1063dc00b4e9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/17f0de33cde5a28c8ed9d593ee8fc39c13a98cc9/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_36d86fe26cc8971e7dfac510f4d942d661b72530.jar" />
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_37dd65d2b1e392a793eedb3afd88b545b2fa61ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/1b9a938dfe1faf8544141d41fab023e21bacfa76/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a73b24a82e860ae409181afee75925a04a03aed3">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_8f3044aee6622f6dbf17eb7805fd55d1f0d11661.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/ab6a70931e96623d4a039531261b0f1e4da9a440/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b534207608aa1c205263d7426e634872ae34f08">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_510979f8a8bfee63add7222370119af0f9a3e6b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/.android/build-cache/eb851873042f96232af581fe54b954c53c3f4646/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e309b1df3051abebbfda31d1c80cd19bec617da">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_946fd91cff168c0cf2a153c1f81e1709cfd32817.jar" />
     </item>
     <item
         is-multidex="false"
@@ -296,214 +125,25 @@
         optimize="true"
         revision="25.0.2"
         sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_9edc6733dea0fbd9e4cb1e93db00ac94c3e811fe.jar" />
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_9edc6733dea0fbd9e4cb1e93db00ac94c3e811fe.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jar="/Users/admin/.android/build-cache/581730b612cafd09433fc37fcbc7c28054850cba/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_e13c557508cac8dc6a15fe6eb223f3f7faa113b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-10.2.0_b6dbee788ec00aba6552d3ba90654f1489400410.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_e10bf63a84ef2691ddc57789f10bb0d60e07a17b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.2.0_090407589115dc0443b6da4ba37f5082c3fe01e7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="807751a24cf96566fd8675517c94d8463cf364db">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.3.1_5ec378b722dbf4e1f8dbfcb50948cf8ca7c3f864.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/2.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
         sha1="1acfba708364fb5bdb0ad5910d1ca8bb1125f645">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.daimajia.androidanimations-library-2.2_56623e5b6d83d8a864ecd8202c5b426405bdd1c6.jar" />
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/classes_6cc6cb30cabcb42934bb8b92b56546a88d694844.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/eventbus-3.0.0_27f37ed28208c616db8609e65503359cdcc1fa61.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.2.0_91a7e5ac0aba7a6d7578ed81db9aed4b0a387c07.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-10.2.0_4c3b01b0153aa3ee279089eec4d74c677f6dac88.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.0_3ec02f5f7efde13ae1cb8c0e473da06ff266db3f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.specyci/residemenu/1.6/jars/libs/nineoldandroids-library-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0_1cae7b7c6ac4b184eb981452c56a4c5658799e67.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.daimajia.easing/library/2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a73b24a82e860ae409181afee75925a04a03aed3">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.daimajia.easing-library-2.0_53e7fd56e18010786dc8e25e30f99cf19c10a352.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_e249fb91e684fc69139f72d25d2b7fb0b70bff9e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94fca868854457ede6df15c902938468c71d579e">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-10.2.0_f394c022e20f201d320c1b5a0fb011f26a2e47cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-maps-10.2.0_f29786a9d023cb131d3732bf0adc850783030f6f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.2.0_9cae4bc409e6d5f9ce8942644859176d3b7d37a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.0_894670b0ed44724e2136844ef1cf2fcb0ac9003f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-10.2.0_9cae4bc409e6d5f9ce8942644859176d3b7d37a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1acfba708364fb5bdb0ad5910d1ca8bb1125f645">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.daimajia.androidanimations-library-2.2_56623e5b6d83d8a864ecd8202c5b426405bdd1c6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_6ba9a63d9fda4ffc9e718dfd8ac6587c8cd35c81.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-10.2.0_91a7e5ac0aba7a6d7578ed81db9aed4b0a387c07.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_d95cdb4a91605b7e3629c5f36b257c82719b3742.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="/Users/admin/AndroidStudioProjects/AtomicBombSimulator/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-10.2.0_4c3b01b0153aa3ee279089eec4d74c677f6dac88.jar" />
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/admin/Documents/GitHub/Atomic-Bomb-Simulator/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_3eb4716e38c36af994cfeb934b15309b535ed112.jar" />
     </item>
 
 </items>

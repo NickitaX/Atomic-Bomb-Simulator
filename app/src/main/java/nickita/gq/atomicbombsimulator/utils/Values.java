@@ -51,6 +51,7 @@ public class Values {
     public final static String MAP_FRAGMENT_TAG = "MapFragment";
     public final static String RESULT_FRAGMENT_TAG = "ResultFragment";
     public final static String CONFIGURATION_FRAGMENT_TAG = "BombConfigurationFragment";
+    public final static String COUNTER_FRAGMENT_TAG = "CounterFragment";
 
     public final static String MENU_TITLES[] = { "Home", "Profile", "Calendar", "Settings" };
 
