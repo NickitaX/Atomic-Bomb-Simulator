@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.facebook.share.widget.LikeView;
 import com.special.ResideMenu.ResideMenu;
 import com.special.ResideMenu.ResideMenuItem;
 
@@ -88,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
         setUpFragments();
         setUpDrawer();
         setUpFab();
+        setUpLikeView();
         EventBus.getDefault().register(this);
         Notifications.showAlert(this, Values.INSTRUCTIONS_MESSAGE_TITLE, Values.INSTRUCTIONS_MESSAGE_BODY, Values.BUTTON_CONFIRMATION_TEXT );        Toolbar toolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);
@@ -102,6 +104,13 @@ public class MainActivity extends AppCompatActivity {
                 EventBus.getDefault().post(new EventMessage<Bomb>(null, Values.PREPARE_BOMB));
             }
         });
+    }
+
+    private void setUpLikeView(){
+        LikeView likeView = (LikeView) findViewById(R.id.facebook_like);
+        likeView.setObjectIdAndType(
+                "https://www.facebook.com/Atomic-Bomb-Simulator-145473922658420/",
+                LikeView.ObjectType.PAGE);
     }
 
     private void setUpFragments() {

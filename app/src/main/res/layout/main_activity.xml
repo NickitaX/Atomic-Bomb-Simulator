@@ -27,6 +27,12 @@
             android:layout_height="wrap_content"
             android:visibility="gone" />
 
+        <com.facebook.share.widget.LikeView
+            android:paddingLeft="10dp"
+            android:id="@+id/facebook_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
     </android.support.v7.widget.Toolbar>
 
     <LinearLayout
