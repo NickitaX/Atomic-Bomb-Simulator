@@ -11,6 +11,7 @@ public class Values {
     public final static int SHOW_RESULT = 2;
     public final static int DROP_ANOTHER = 3;
     public final static int ASK_GPS = 4;
+    public final static int SHOW_ACHIEVEMENT = 5;
 
     public final static String WARNING_SNACKBAR_CANNOT_DEFINE_LOCATION = "We couldn't define your location. Please try again!";
     public final static String WARNING_SNACKBAR_SHOULD_DROP_PIN_FIRST = "You should drop a bomb target pin on map first!";

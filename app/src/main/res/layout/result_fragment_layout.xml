@@ -3,24 +3,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/soil"
-    android:weightSum="1"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <LinearLayout
-        android:layout_weight="0.5"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@drawable/result_window_shape"
         android:layout_marginTop="25dp"
-        android:orientation="horizontal"
-        >
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:background="@drawable/result_window_shape"
+        android:orientation="horizontal">
 
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/earth" />
+
+        <TextView
+            android:id="@+id/achievement_text"
+            android:textSize="15sp"
+            android:text="Loading statistics..."
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_weight="0.5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.5"
         android:orientation="horizontal"
         android:weightSum="1">
 

@@ -101,6 +101,7 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
     private DatabaseReference mDatabase;
     private FirebaseAnalytics mFirebaseAnalytics;
     private NewtonCradleLoading mLoading;
+    private BombedPlace mBombedPlace;
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(EventMessage event) {
@@ -139,6 +140,7 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
                 showLoadingBombScreen(b);
             } else {
                 Notifications.showSnackbar(mRootLayout, Values.WARNING_SNACKBAR_CANNOT_DEFINE_LOCATION, Snackbar.LENGTH_LONG);
+                askGps();
                 updateLocation();
             }
         } else {
@@ -200,6 +202,7 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
                         EventBus.getDefault().post(new EventMessage<Bomb>(null, Values.SHOW_RESULT));
                         mLoading.setVisibility(View.GONE);
                         mLoading.stop();
+                        EventBus.getDefault().postSticky(new EventMessage<BombedPlace>(mBombedPlace, Values.SHOW_ACHIEVEMENT));
                     }
                 }, 1500);
             }
@@ -332,8 +335,8 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
         double longitude = destLatLang.longitude;
         double latitude = destLatLang.latitude;
         String power = String.valueOf(b.getPower());
-        BombedPlace bombedPlace = new BombedPlace(power, latitude, longitude, country);
-        mDatabase.child(Values.DB_BOMED_PLACES_LOC).child(UUID.randomUUID().toString()).setValue(bombedPlace);
+        mBombedPlace = new BombedPlace(power, latitude, longitude, country);
+        mDatabase.child(Values.DB_BOMED_PLACES_LOC).child(UUID.randomUUID().toString()).setValue(mBombedPlace);
     }
 
     private void loadBombedPlacesListener() {
@@ -358,10 +361,12 @@ public class MapFragment extends Fragment implements GoogleApiClient.OnConnectio
                     bombs.add(latLng);
                     mGoogleMap.addMarker(new MarkerOptions().position(latLng).title(Values.MARKER_THIS_PLACE_WAS_BOMBED_BY + bp.getmBombedByCountry()));
                 }
-                HeatmapTileProvider provider = new HeatmapTileProvider.Builder()
-                        .data(bombs)
-                        .build();
-                mGoogleMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+                if(bombs.size()>5){
+                    HeatmapTileProvider provider = new HeatmapTileProvider.Builder()
+                            .data(bombs)
+                            .build();
+                    mGoogleMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+                }
                 mLoading.setVisibility(View.GONE);
                 mLoading.stop();
             }

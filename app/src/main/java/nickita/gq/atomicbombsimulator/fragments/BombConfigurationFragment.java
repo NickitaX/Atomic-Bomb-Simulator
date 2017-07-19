@@ -39,6 +39,8 @@ public class BombConfigurationFragment extends Fragment {
         }
     }
 
+
+
     private void setUpSeekBar() {
         SeekBar seekBar = (SeekBar) mView.findViewById(R.id.seek_bar_configuration);
         mIndicator = (TextView) mView.findViewById(R.id.kilotons_indicator);
