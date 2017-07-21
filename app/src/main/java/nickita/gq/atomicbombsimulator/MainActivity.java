@@ -1,6 +1,5 @@
 package nickita.gq.atomicbombsimulator;
 
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -36,6 +35,7 @@ import nickita.gq.atomicbombsimulator.utils.Values;
 public class MainActivity extends AppCompatActivity {
     ResideMenu mResideMenu;
     Button mMenuButton;
+
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(EventMessage event) {
         switch (event.getType()) {
@@ -50,48 +50,46 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void setUpDrawer(){
+    @Deprecated
+    private void setUpDrawer() {
+        //mMenuButton = (Button) findViewById(R.id.menu_button);
         mResideMenu = new ResideMenu(this);
         mResideMenu.setBackground(R.drawable.blurred_background);
         mResideMenu.attachToActivity(this);
         mResideMenu.setSwipeDirectionDisable(ResideMenu.DIRECTION_RIGHT);
         mResideMenu.setSwipeDirectionDisable(ResideMenu.DIRECTION_LEFT);
-
-        //TODO (2) Implement menu logic
-
-        for (int i = 0; i < Values.MENU_TITLES.length; i++){
+        //TODO (2) Implement menu logic. Too lazy to make it now
+        for (int i = 0; i < Values.MENU_TITLES.length; i++) {
             ResideMenuItem item = new ResideMenuItem(this, Values.MENU_ICONS[i], Values.MENU_TITLES[i]);
             item.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-
                 }
             });
-            mResideMenu.addMenuItem(item,  ResideMenu.DIRECTION_LEFT);
+            mResideMenu.addMenuItem(item, ResideMenu.DIRECTION_LEFT);
         }
     }
-
-    private void initialize(){
-        mMenuButton = (Button) findViewById(R.id.menu_button);
-        mMenuButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mResideMenu.openMenu(ResideMenu.DIRECTION_LEFT);
-            }
-        });
-    }
+//    private void initialize(){
+//        mMenuButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                mResideMenu.openMenu(ResideMenu.DIRECTION_LEFT);
+//            }
+//        });
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
-        initialize();
+        //initialize();
         setUpFragments();
-        setUpDrawer();
+        //setUpDrawer();
         setUpFab();
         setUpLikeView();
         EventBus.getDefault().register(this);
-        Notifications.showAlert(this, Values.INSTRUCTIONS_MESSAGE_TITLE, Values.INSTRUCTIONS_MESSAGE_BODY, Values.BUTTON_CONFIRMATION_TEXT );        Toolbar toolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        Notifications.showAlert(this, Values.INSTRUCTIONS_MESSAGE_TITLE, Values.INSTRUCTIONS_MESSAGE_BODY, Values.BUTTON_CONFIRMATION_TEXT);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
     }
@@ -106,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void setUpLikeView(){
+    private void setUpLikeView() {
         LikeView likeView = (LikeView) findViewById(R.id.facebook_like);
         likeView.setObjectIdAndType(
                 "https://www.facebook.com/Atomic-Bomb-Simulator-145473922658420/",
@@ -134,10 +132,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.action_feedback:
-                Notifications.showAlert(this, Values.FEEDBACK_MESSAGE_TITLE, Values.FEEDBACK_MESSAGE_BODY , Values.BUTTON_CONFIRMATION_TEXT );
+                Notifications.showAlert(this, Values.FEEDBACK_MESSAGE_TITLE, Values.FEEDBACK_MESSAGE_BODY, Values.BUTTON_CONFIRMATION_TEXT);
                 return true;
             case R.id.action_faq:
-                Notifications.showAlert(this, Values.INSTRUCTIONS_MESSAGE_TITLE , Values.INSTRUCTIONS_MESSAGE_BODY , Values.BUTTON_CONFIRMATION_TEXT );
+                Notifications.showAlert(this, Values.INSTRUCTIONS_MESSAGE_TITLE, Values.INSTRUCTIONS_MESSAGE_BODY, Values.BUTTON_CONFIRMATION_TEXT);
                 return true;
             case R.id.action_request_gps:
                 EventBus.getDefault().post(new EventMessage<Bomb>(null, Values.ASK_GPS));

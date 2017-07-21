@@ -15,11 +15,11 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
         app:titleTextColor="@color/colorWhite">
 
-        <Button
-            android:id="@+id/menu_button"
-            android:layout_width="25dp"
-            android:layout_height="20dp"
-            android:background="@drawable/menu_icon" />
+        <!--<Button-->
+        <!--android:id="@+id/menu_button"-->
+        <!--android:layout_width="25dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:background="@drawable/menu_icon" />-->
 
         <com.victor.loading.newton.NewtonCradleLoading
             android:id="@+id/newton_cradle_loading"
@@ -28,10 +28,10 @@
             android:visibility="gone" />
 
         <com.facebook.share.widget.LikeView
-            android:paddingLeft="10dp"
             android:id="@+id/facebook_like"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp" />
 
     </android.support.v7.widget.Toolbar>
 

@@ -38,8 +38,7 @@ public class Values {
     public final static String FEEDBACK_MESSAGE_TITLE = "I really value your feedback!";
     public final static String FEEDBACK_MESSAGE_BODY = "This app is downloaded more than 700 times per day!" +
             "\nThere were numerous versions of this app with bugs, crashes and various problems.\nIt became possible to improve it only thanks to you and your feedback :)" +
-            "\nPlease, if there is any issue or you want some feature - feel free to contact me via feedback on Google Play, Facebook or by visiting " +
-            "www.nickita.gq\nI do read every feedback. Seriously.";
+            "\nPlease, if there is any issue or you want some feature - feel free to contact me via feedback on Google Play or by visiting Facebook page\nI do read every feedback. Seriously.";
 
     public final static String BUTTON_CONFIRMATION_TEXT = "Awesome!";
 
@@ -47,7 +46,7 @@ public class Values {
     public final static String INSTRUCTIONS_MESSAGE_BODY = "Make sure GPS is enabled.\n\n1. Make a long touch on the map to drop a target.\n2. Configure the kiloton slider to choose the power of bomb." +
             "\n3. Press an orange button to simulate explosion.\n" +
             "\nNOTE: If map doesn't function properly: on some devices, manual Location permission activation is required.\n" +
-            "\nThis is new version 1.5!\nNow all bombed places are saved on map!";
+            "\nThis is new version 1.6!\nEXPLOSIONS GOT BIGGER!";
 
     public final static String MAP_FRAGMENT_TAG = "MapFragment";
     public final static String RESULT_FRAGMENT_TAG = "ResultFragment";
